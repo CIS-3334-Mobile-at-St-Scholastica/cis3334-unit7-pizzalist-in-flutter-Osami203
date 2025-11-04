@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _addPizza() {
     // TODO: display add pizza Dialog window
-    print("addPizza called");
+    print("addPizza called from list");
     TextEditingController _toppingController = TextEditingController();
     int tempSizeIndex = 0;
 
@@ -97,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
       },
     );
   }
+  //testing
 
   @override
   Widget build(BuildContext context) {
